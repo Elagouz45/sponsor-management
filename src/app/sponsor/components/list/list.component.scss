@@ -1,0 +1,29 @@
+.lead-list{
+margin: 30px auto;
+}
+.w-75{
+  width: 75%;
+}
+.bg-eee{
+  background-color: #eee;
+}
+th{
+  background-color: #000000cf !important;
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.m-15{
+  margin: 15px 0px;
+}
+::ng-deep{
+  .mat-mdc-form-field-subscript-wrapper{
+    display: none;
+  }
+  .mdc-data-table__cell{
+    height: 87px;
+  }
+}
+th.mat-sort-header-sorted {
+  color: #ffffff;
+}
